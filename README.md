@@ -1,7 +1,7 @@
-#Real Estate Price Prediction Model 
+# Real Estate Price Prediction Model 
 A machine learning project that predicts housing prices using structured real estate data. This model leverages feature engineering, location clustering, and ensemble learning (Random Forest) to capture complex relationships in housing markets.
 
-##Overview
+## Overview
 This project builds a regression model to estimate property prices based on features such as location, size, number of bedrooms/bathrooms, and property type. 
 Key highlights: 
 - Advanced feature engineering (price per sqft, bed/bath ratio)
@@ -10,16 +10,16 @@ Key highlights:
 - End-to-end preprocessing pipeline
 - Random Forest regression model for prediction  
 
-##Features & Techniques 
+## Features & Techniques 
 ### Feature Engineering
 - Price per Square Foot
 - Bed-to-Bath Ratio
 - Outlier handling using clipping
 
-###Location Intelligence 
+### Location Intelligence 
 - KMeans clustering on latitude/longitude to create location zones
 
-###Categorical Handling 
+### Categorical Handling 
 - Reduces high-cardinality features by keeping top categories and grouping others into 'Other'
 - One-hot encoding for categorical variables ### Preprocessing Pipeline
 - 'ColumnTransformer' for: Standard scaling (numeric features), One-hot encoding (categorical features)
@@ -30,7 +30,7 @@ Key highlights:
 - Max depth of 20
 - Captures nonlinear relationships and interactions
 
-##Installation 
+## Installation 
 Clone the repository: 
 
 ```bash
